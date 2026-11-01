@@ -1,28 +1,28 @@
 class Prismalens < Formula
   desc "Investigates a firing alert with your coding agent and returns ordered evidence"
   homepage "https://prismalens.io"
-  version "0.5.2"
+  version "0.5.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/prismalens/prismalens/releases/download/v0.5.2/prismalens-0.5.2-darwin-arm64.tar.gz"
-      sha256 "00013c5aec756bf5565bf6e942cea428655f21da76d0eddd5f06e4c143df7963"
+      url "https://github.com/prismalens/prismalens/releases/download/v0.5.3/prismalens-0.5.3-darwin-arm64.tar.gz"
+      sha256 "4cfde171c286e019744a847d2ab002e6ed848847197b57ccd79d00408019aef7"
     end
     on_intel do
-      url "https://github.com/prismalens/prismalens/releases/download/v0.5.2/prismalens-0.5.2-darwin-x64.tar.gz"
-      sha256 "aa57166f566097c1372621887aa83d6a4d16642c184c47789758c6a1a9ba1e0e"
+      url "https://github.com/prismalens/prismalens/releases/download/v0.5.3/prismalens-0.5.3-darwin-x64.tar.gz"
+      sha256 "d3a37f0e87460e631721468feea8ce4b272d6265c4441d0c9ba7dea5c8ee6ee0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/prismalens/prismalens/releases/download/v0.5.2/prismalens-0.5.2-linux-arm64.tar.gz"
-      sha256 "3c47a691b342dbbd6c4d3faa11ec4382597649f69f0791248f64349abe0bb2f4"
+      url "https://github.com/prismalens/prismalens/releases/download/v0.5.3/prismalens-0.5.3-linux-arm64.tar.gz"
+      sha256 "c6fec620d52951156813b8ffd6da8e44d07a8ed6cfcd7b93f90775e772170478"
     end
     on_intel do
-      url "https://github.com/prismalens/prismalens/releases/download/v0.5.2/prismalens-0.5.2-linux-x64.tar.gz"
-      sha256 "7792872e354cc949c649c762d1048731ac59cdb77382aee74f18dfa40d9ad041"
+      url "https://github.com/prismalens/prismalens/releases/download/v0.5.3/prismalens-0.5.3-linux-x64.tar.gz"
+      sha256 "4d42d60a49d3a3a3690af990dee38298eba91d19d75f22698840ef08a668fc50"
     end
   end
 
